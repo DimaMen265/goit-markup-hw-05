@@ -459,7 +459,7 @@
           </p>
         </div>
         <div class="footer-links">
-          <p class="social-title">Social media</p>
+          <p class="footer-title">Social media</p>
           <ul class="social-links-footer list">
             <li class="social-links-item-footer">
               <a href="" class="social-links-link-footer">
@@ -491,6 +491,30 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="footer-title">Subscribe</p>
+          <form
+            name="form_footer"
+            autocomplete="off"
+            novalidate
+            class="form-footer"
+          >
+            <label>
+              <input
+                type="email"
+                name="user_email_footer"
+                placeholder="E-mail"
+                class="form-input-footer"
+              />
+            </label>
+            <button type="submit" class="form-button-footer">
+              Subscribe
+              <svg width="24" height="24" class="form-button-icon-footer">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -501,6 +525,42 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <h3 class="title-modal">
+          Leave your contacts and we will call you back
+        </h3>
+        <form
+          name="form_modal"
+          autocomplete="off"
+          novalidate
+          class="form-modal"
+        >
+          <label class="form-label-modal">
+            Name
+            <input type="text" name="user_name" class="form-input-modal" />
+          </label>
+          <label class="form-label-modal">
+            Phone
+            <input type="tel" name="user_tel" class="form-input-modal" />
+          </label>
+          <label class="form-label-modal">
+            Email
+            <input
+              type="email"
+              name="user_email_modal"
+              class="form-input-modal"
+            />
+          </label>
+          <label class="form-label-modal">
+            Comment
+            <textarea
+              name="write_comment"
+              rows="7"
+              placeholder="Text input"
+              class="form-input-modal"
+            ></textarea>
+          </label>
+          <button type="submit" class="form-button-modal">Send</button>
+        </form>
       </div>
     </div>
 
